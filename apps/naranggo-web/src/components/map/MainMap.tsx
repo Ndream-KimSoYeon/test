@@ -101,6 +101,7 @@ const MainMap = ({
       () => {},
       {
         enableHighAccuracy: true,
+        maximumAge: Infinity
       }
     );
   };
