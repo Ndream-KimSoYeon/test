@@ -1,0 +1,90 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.story_write #map:after {
+  width: 36px;
+  height: 36px;
+  display: block;
+  content: ' ';
+  position: absolute;
+  top: calc(50% - 36px);
+  left: calc(50% - 18px);
+  background: url('/images/gps_point_pin_writing.png') no-repeat;
+  background-size: 36px 36px;
+  pointer-events: none;
+}
+
+.ck-editor__editable {
+  min-height: 600px;
+}
+
+body .pac-container {
+  left: 0px !important;
+  width: 100% !important;
+}
+
+body .pac-container .pac-item {
+  padding: 5px;
+  font-size: 1rem;
+  font-weight: 300;
+  color: #000;
+  background-color: #fff;
+  border-radius: 2px;
+  border-top: 1px solid #e5e5e5;
+  border-bottom: 1px solid #e5e5e5;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.pac-container {
+  font-family: Montserrat, sans-serif !important;
+}
+.pac-container .pac-item-query,
+.pac-container .pac-matched {
+  font-size: 1rem;
+}
+
+.pac-container .pac-item-query {
+  display: block;
+  padding-left: 1.5rem;
+}
+.pac-container span:nth-child(3) {
+  padding-left: 1.5rem;
+  font-size: 0.875rem;
+}
+
+.pac-item {
+  position: relative;
+}
+
+.pac-container .pac-icon {
+  position: absolute;
+}
+
+nav {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+nav::-webkit-scrollbar {
+  display: none;
+}

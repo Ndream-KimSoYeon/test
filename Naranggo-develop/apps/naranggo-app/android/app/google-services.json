@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "706024078559",
+    "firebase_url": "https://ndream-naranggo.firebaseio.com",
+    "project_id": "ndream-naranggo",
+    "storage_bucket": "ndream-naranggo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:706024078559:android:4d3c0a957f539182b9fd6a",
+        "android_client_info": {
+          "package_name": "com.naranggoapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "706024078559-iocjkktlvdrc7ds8b1sfo09hlvm2vrsa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDkA9vLDtiX_jae_UWXk36RwqADiJMESPs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "706024078559-iocjkktlvdrc7ds8b1sfo09hlvm2vrsa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
