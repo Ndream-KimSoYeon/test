@@ -109,7 +109,7 @@ const MainMap = ({
 
   return (
     <Wrapper>
-      {userPosition && (
+      {center && (
       <GoogleMap 
         center={center || userPosition}
         isMapTypeSatellite={isMapTypeSatellite}
