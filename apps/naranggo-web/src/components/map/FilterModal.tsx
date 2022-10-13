@@ -81,7 +81,7 @@ const FilterModal = ({
 export default FilterModal;
 
 const Wrapper = styled(SwipeableDrawer)(() => ({
-  '& > .css-1nvnyqx-MuiPaper-root-MuiDrawer-paper': { overflowY: 'visible' },
+  '& > .css-oqbj7d': { overflowY: 'visible' },
 }));
 
 const FilterWrapper = styled(Box)(() => ({
