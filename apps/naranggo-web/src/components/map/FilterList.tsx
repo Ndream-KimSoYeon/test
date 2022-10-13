@@ -53,20 +53,18 @@ export default React.memo(FilterList);
 
 const ListTitle = styled(Typography)(() => ({
   fontWeight: 600,
-  fontSize: '1.2rem'
+  fontSize: '1.1rem'
 }));
 
 const StorySet = styled(ListItem)(() => ({
-  padding: '0.3rem'
 }));
 
 const StorySetText = styled(ListItemText)(() => ({
-  padding: '0.5rem'
 }));
 
 const CheckBox = styled(Checkbox)(() => ({
   color: theme.palette.custom.yellow,
-  '& .MuiSvgIcon-root': { fontSize: '1.7rem' },
+  '& .MuiSvgIcon-root': { fontSize: '1.5rem' },
   '&.Mui-checked': {
     color: theme.palette.custom.yellow
   }

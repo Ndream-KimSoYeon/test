@@ -81,17 +81,17 @@ const FilterModal = ({
 export default FilterModal;
 
 const Wrapper = styled(SwipeableDrawer)(() => ({
-  '& .css-1nvnyqx-MuiPaper-root-MuiDrawer-paper': { overflowY: 'inherit' }
+  '& > .css-1nvnyqx-MuiPaper-root-MuiDrawer-paper': { overflowY: 'visible' },
 }));
 
 const FilterWrapper = styled(Box)(() => ({
-  padding: '1.5rem'
+  padding: '1rem'
 }));
 
 const FillterTitle = styled(Typography)(() => ({
   color: theme.palette.custom.dark,
   fontWeight: 900,
-  fontSize: '1.2rem'
+  fontSize: '1rem'
 }));
 
 const CloseBtn = styled(IconButton)(() => ({
@@ -105,7 +105,7 @@ const ApplyBtn = styled(Button)(() => ({
   right: '50%',
   transform: 'translate(-50%, 60%)',
   width: '90%',
-  height: '3.5rem',
+  height: '3rem',
   backgroundColor: theme.palette.custom.yellow,
   '&:hover': {
     backgroundColor: theme.palette.custom.yellow
@@ -115,13 +115,12 @@ const ApplyBtn = styled(Button)(() => ({
 const ApplyBtnText = styled(Typography)(() => ({
   color: theme.palette.custom.dark,
   fontWeight: 600,
-  fontSize: '1.2rem'
+  fontSize: '1rem'
 }));
 
 /* 공통 스타일 */
 const AlignWrapper = styled(Stack)(() => ({
   justifyContent: 'space-between',
   alignSelf: 'center',
-  marginBottom: '0.5rem',
   '& *': { color: theme.palette.custom.dark }
 }));
